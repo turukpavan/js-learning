@@ -1,5 +1,6 @@
 console.log(`================STEP 1=====================`);
 let messages=()=>console.log(`Good Afternoon,Today is Monday`);
+messages();
 
 let mul=(arg1,arg2,arg3=1)=> console.log(`multiplications of ${arg1},${arg2},${arg3} : ${arg1*arg2*arg3}`);
 console.log(`================STEP 2.a=====================`);

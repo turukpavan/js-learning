@@ -1,7 +1,7 @@
 function factorialOfNum(n) {
     let fact=1;
     if (typeof n=='string' || n==NaN || n==undefined) {
-        console.log(`INVALID INPUT`);
+        console.log(`Factorial of ${n} : INVALID INPUT`);
     }else{
         for (let i = 1; i <= n; i++) {
             fact=fact*i;

@@ -22,3 +22,5 @@ function countPrime(arr) {
 }
 
 countPrime(array);
+
+

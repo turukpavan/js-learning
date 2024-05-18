@@ -13,8 +13,9 @@ const jsonData=`{
     "referred-by":"E0012"
     
 }`
-
-const jsonObject=JSON.parse(jsonData);
-console.log(jsonObject.role[0]);
-console.log(jsonObject.name.split(" ")[1]);
-console.log(jsonObject.doj.split("-")[2]);
+console.log(`JSON data after convert in object`);
+let jsonObject=JSON.parse(jsonData);
+console.table(jsonObject);
+console.log(` First element of role => ${jsonObject.role[0]}`);
+console.log(`lastName of name =>${jsonObject.name.split(" ")[1]}`);
+console.log(` Joining Year =>${jsonObject.doj.split("-")[2]}`);
